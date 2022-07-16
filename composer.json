@@ -1,0 +1,24 @@
+{
+  "name": "bestyii/yii2-helpers",
+  "description": "优化的助手类库",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "ez",
+      "email": "ez@bestyii.com"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "bestyii\\helpers\\": "src"
+    }
+  },
+  "extra": {
+    "bootstrap": "bestyii\\helpers\\Bootstrap"
+  }
+}
